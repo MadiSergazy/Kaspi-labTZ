@@ -136,5 +136,13 @@ fileEventData.user.userName: имя пользователя, вызвавшег
 5.           В файле «Пример запросов.txt» отделить легитимные запросы от запросов, очевидно содержащих попытки эксплуатации известных уязвимостей. Написать IP адреса атакующих, какого класса уязвимости они пытались использовать.
 Пример запросов
 
+85.117.101.213 GET https://data.kaspi.lab/market/api/v2/orders
+payload = %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E
+potential_attack = XSS(Reflected)
 
-К сожалению, предоставленная информация неполная. В файле журнала, отсутствует необходимый контекст для идентификации законных запросов от тех, кто пытается использовать уязвимости. Чтобы точно определить попытки использования известных уязвимостей, потребуется доступ к более полным данным, таким как файлы конфигурации сети, журналы событий безопасности или оповещения системы обнаружения вторжений (IDS).
+81.91.187.59 POST https://new.kaspi.lab/bottles/dashboards/
+payload = actionoutcome%3D%2Fpwn.xhtml%3Fpwned%3D%23%7Bexpressions.getclass%28%29.forname%28%27java.lang.runtime%27%29.getdeclaredmethods%28%29%5B0%5D%7D
+pottential_attack = SSTI via uploaded shell
+
+Mozilla/5.0+(Linux;+Android+7.1.2;+Redmi+4X+Build/N2G47H;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/110.0.5481.63+Mobile+Safari/537.36 %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E kaspi.lab                 pottential_attack = XSS(Reflected)
+
